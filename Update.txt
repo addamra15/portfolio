@@ -1,0 +1,7 @@
+UPDATE
+
+25/12/2023
+- Menghide page projek untuk sementara waktu di karenakan belum ada konten yang bisa ditambahkan
+- Memperbaiki height experience => contact pada bagian bawah / footer
+- Mengubah logo pada navbar header
+- Menambahkan favicon logo
