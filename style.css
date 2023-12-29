@@ -125,7 +125,13 @@ a:hover {
 }
 
 .menu-links.open {
+  display: block;
+  margin: 100%;
+  margin-top: -10px;
+  padding: 100%;
   max-height: 300px;
+  border: solid 4px;
+  border-radius: 10px;
 }
 
 .hamburger-icon.open span:first-child {
@@ -152,11 +158,23 @@ a:hover {
   transform: none;
 }
 
+.logo-mobile {
+  position: relative; 
+}
+
+.logo-mobile img {
+  width: 5rem;
+  height: 100%;
+}
+
+.logo-mobile:hover {
+  cursor: default;
+}
+
 /* SECTIONS */
 
 section {
   padding-top: 4vh;
-  height: 90vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -225,7 +243,6 @@ section {
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
 }
 
 .btn {
@@ -326,7 +343,6 @@ section {
 
 #experience {
   position: relative;
-  height: 60vh;
 }
 
 .experience-sub-title {
